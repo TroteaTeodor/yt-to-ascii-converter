@@ -113,12 +113,6 @@ chmod +x yt-to-ascii.sh
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 ## 🙃 Just for Fun
 
 Watching YouTube in ASCII might not be practical, but it sure is entertaining.
