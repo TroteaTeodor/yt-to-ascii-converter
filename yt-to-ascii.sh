@@ -1,9 +1,6 @@
 #!/bin/bash
-
-# Install dependencies quietly
-sudo dnf install -y epel-release ffmpeg mplayer libcaca python3-pip > /dev/null
-pip3 install --user yt-dlp > /dev/null
-export PATH=$PATH:$HOME/.local/bin
+# playvid.sh - A script to download and play YouTube videos as ASCII art with audio
+# Requirements: yt-dlp, ffmpeg, mplayer, caca-utils
 
 # Get YouTube URL
 read -p "Enter YouTube video URL: " YTURL
